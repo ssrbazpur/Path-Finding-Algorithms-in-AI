@@ -1,10 +1,15 @@
 import React, {Component} from 'react';
 import Node from './Node/Node';
+import Button from 'react-bootstrap/Button';
+import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import {dijkstra, getNodesInShortestPathOrder} from '../algorithms/dijkstra';
-
+import {Container} from 'react-bootstrap';
+import Card from 'react-bootstrap/Card'
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from'react-bootstrap/Nav';
 import './PathfindingVisualizer.css';
 
-const START_NODE_ROW = 10;
+const START_NODE_ROW = 5;
 const START_NODE_COL = 15;
 const FINISH_NODE_ROW = 10;
 const FINISH_NODE_COL = 35;
@@ -78,9 +83,19 @@ export default class PathfindingVisualizer extends Component {
 
     return (
       <>
-        <button onClick={() => this.visualizeDijkstra()}>
-          Visualize Dijkstra's Algorithm
-        </button>
+      
+        <Navbar bg="dark" variant="dark" className="nav">
+    <Navbar.Brand href="#home" >Path Finding Algorithms Visulizations</Navbar.Brand>
+    
+   
+  </Navbar>
+
+  <br></br>
+ <p align="center">
+  <Button variant="secondary" align="center" onClick={() => this.visualizeDijkstra()}>Visualize Dijkstra</Button></p>
+  
+<br></br>
+
         <div className="grid">
           {grid.map((row, rowIdx) => {
             return (
@@ -107,6 +122,8 @@ export default class PathfindingVisualizer extends Component {
             );
           })}
         </div>
+        <br>
+        </br>
       </>
     );
   }
@@ -138,6 +155,17 @@ const createNode = (col, row) => {
 };
 
 const getNewGridWithWallToggled = (grid, row, col) => {
+  const newGrid = grid.slice();
+  const node = newGrid[row][col];
+  const newNode = {
+    ...node,
+    isWall: !node.isWall,
+  };
+  newGrid[row][col] = newNode;
+  return newGrid;
+};
+
+const getNewGridwithstart = (grid, row, col) => {
   const newGrid = grid.slice();
   const node = newGrid[row][col];
   const newNode = {
