@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dad6aed18d45b3fb9408b4b944bb18e1",
+    "revision": "5ae943e2b2e9ed45e480fd3d5e2c52c1",
     "url": "/Path-Finding-Algorithms-in-AI/index.html"
   },
   {
-    "revision": "a5cd3c3b34d3463a7b88",
-    "url": "/Path-Finding-Algorithms-in-AI/static/css/main.54e622e3.chunk.css"
+    "revision": "4b8da9268f07813f09f5",
+    "url": "/Path-Finding-Algorithms-in-AI/static/css/main.ee4c5a7d.chunk.css"
   },
   {
     "revision": "01439fc65dd352903697",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Path-Finding-Algorithms-in-AI/static/js/2.68284531.chunk.js.LICENSE"
   },
   {
-    "revision": "a5cd3c3b34d3463a7b88",
+    "revision": "4b8da9268f07813f09f5",
     "url": "/Path-Finding-Algorithms-in-AI/static/js/main.30b66866.chunk.js"
   },
   {
