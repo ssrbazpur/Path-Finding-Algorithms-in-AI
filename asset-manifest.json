@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/Path-Finding-Algorithms-in-AI/static/css/main.46eceda8.chunk.css",
-    "main.js": "/Path-Finding-Algorithms-in-AI/static/js/main.493263b6.chunk.js",
-    "main.js.map": "/Path-Finding-Algorithms-in-AI/static/js/main.493263b6.chunk.js.map",
+    "main.css": "/Path-Finding-Algorithms-in-AI/static/css/main.54e622e3.chunk.css",
+    "main.js": "/Path-Finding-Algorithms-in-AI/static/js/main.30b66866.chunk.js",
+    "main.js.map": "/Path-Finding-Algorithms-in-AI/static/js/main.30b66866.chunk.js.map",
     "runtime-main.js": "/Path-Finding-Algorithms-in-AI/static/js/runtime-main.c02e1535.js",
     "runtime-main.js.map": "/Path-Finding-Algorithms-in-AI/static/js/runtime-main.c02e1535.js.map",
-    "static/js/2.b505410a.chunk.js": "/Path-Finding-Algorithms-in-AI/static/js/2.b505410a.chunk.js",
-    "static/js/2.b505410a.chunk.js.map": "/Path-Finding-Algorithms-in-AI/static/js/2.b505410a.chunk.js.map",
+    "static/js/2.68284531.chunk.js": "/Path-Finding-Algorithms-in-AI/static/js/2.68284531.chunk.js",
+    "static/js/2.68284531.chunk.js.map": "/Path-Finding-Algorithms-in-AI/static/js/2.68284531.chunk.js.map",
     "index.html": "/Path-Finding-Algorithms-in-AI/index.html",
-    "precache-manifest.dadfbdedb7225c79086e6b4f415e23c7.js": "/Path-Finding-Algorithms-in-AI/precache-manifest.dadfbdedb7225c79086e6b4f415e23c7.js",
+    "precache-manifest.e0c4f268a6bc0eb75c17780cbe4686b9.js": "/Path-Finding-Algorithms-in-AI/precache-manifest.e0c4f268a6bc0eb75c17780cbe4686b9.js",
     "service-worker.js": "/Path-Finding-Algorithms-in-AI/service-worker.js",
-    "static/css/main.46eceda8.chunk.css.map": "/Path-Finding-Algorithms-in-AI/static/css/main.46eceda8.chunk.css.map",
-    "static/js/2.b505410a.chunk.js.LICENSE": "/Path-Finding-Algorithms-in-AI/static/js/2.b505410a.chunk.js.LICENSE",
-    "static/media/logo.svg": "/Path-Finding-Algorithms-in-AI/static/media/logo.5d5d9eef.svg"
+    "static/css/main.54e622e3.chunk.css.map": "/Path-Finding-Algorithms-in-AI/static/css/main.54e622e3.chunk.css.map",
+    "static/js/2.68284531.chunk.js.LICENSE": "/Path-Finding-Algorithms-in-AI/static/js/2.68284531.chunk.js.LICENSE",
+    "static/media/logo.svg": "/Path-Finding-Algorithms-in-AI/static/media/logo.5d5d9eef.svg",
+    "static/media/Node.css": "/Path-Finding-Algorithms-in-AI/static/media/stop.cb4c50b7.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.c02e1535.js",
-    "static/js/2.b505410a.chunk.js",
-    "static/css/main.46eceda8.chunk.css",
-    "static/js/main.493263b6.chunk.js"
+    "static/js/2.68284531.chunk.js",
+    "static/css/main.54e622e3.chunk.css",
+    "static/js/main.30b66866.chunk.js"
   ]
 }
